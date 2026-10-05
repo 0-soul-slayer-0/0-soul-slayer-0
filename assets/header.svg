@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="350" viewBox="0 0 960 350" role="img" aria-labelledby="title desc">
+<title id="title">Soul Slayer — Yekambar Eshwar</title>
+<desc id="desc">Cybersecurity, networks and systems. A dark terminal with cyan and violet accents and an animated radar.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1020"/><stop offset="1" stop-color="#111326"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#22d3ee" stop-opacity=".13"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#28334b" stroke-opacity=".35"/></pattern>
+  <clipPath id="edge"><rect x="1" y="1" width="958" height="348" rx="16"/></clipPath>
+</defs>
+<style>
+  text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+  .orbit{transform-origin:782px 183px;animation:spin 16s linear infinite}
+  .pulse{animation:pulse 3s ease-in-out infinite}
+  .cursor{animation:blink 1.4s steps(2,end) infinite}
+  .packet{stroke-dasharray:12 420;animation:flow 7s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes pulse{50%{opacity:.3}}
+  @keyframes blink{50%{opacity:0}}
+  @keyframes flow{to{stroke-dashoffset:-432}}
+  @media(prefers-reduced-motion:reduce){.orbit,.pulse,.cursor,.packet{animation:none}}
+</style>
+<g clip-path="url(#edge)">
+<rect width="960" height="350" fill="url(#bg)"/>
+<rect width="960" height="350" fill="url(#grid)"/>
+<circle cx="790" cy="183" r="175" fill="url(#halo)"/>
+<path d="M0 43H960" stroke="#273147"/>
+<circle cx="25" cy="23" r="4" fill="#f472b6"/><circle cx="41" cy="23" r="4" fill="#fbbf24"/><circle cx="57" cy="23" r="4" fill="#67e8f9"/>
+<text x="82" y="27" font-size="11" fill="#94a3b8">soul@github: ~/profile</text>
+<rect x="650" y="11" width="94" height="23" rx="6" fill="#153242"/><text x="667" y="27" font-size="10" fill="#67e8f9">01 / soul</text>
+<text x="766" y="27" font-size="10" fill="#7d8aa5">02 / builds</text><text x="872" y="27" font-size="10" fill="#7d8aa5">03 / logs</text>
+<rect x="38" y="76" width="205" height="25" rx="5" fill="#142936" stroke="#235266"/>
+<circle cx="52" cy="88" r="3" fill="#67e8f9" class="pulse"/><text x="64" y="92" font-size="10" letter-spacing="1.5" fill="#67e8f9">SECURITY-MINDED BUILDER</text>
+<text x="35" y="161" font-size="55" font-weight="800" letter-spacing="-2" fill="#f1f5f9">SOUL<tspan fill="#67e8f9">//</tspan>SLAYER</text>
+<text x="39" y="190" font-size="14" letter-spacing="3" fill="#a78bfa">YEKAMBAR ESHWAR</text>
+<text x="39" y="222" font-size="13" fill="#a8b5cd">CYBERSECURITY / NETWORKS / SYSTEMS</text>
+<path d="M39 244H562" stroke="#28334b"/>
+<text x="39" y="274" font-size="13" fill="#67e8f9">❯ <tspan fill="#a8b5cd">build. inspect. understand. repeat.</tspan></text>
+<rect x="337" y="263" width="8" height="14" fill="#67e8f9" class="cursor"/>
+<g fill="none" stroke="#2c435d">
+<circle cx="782" cy="183" r="105"/><circle cx="782" cy="183" r="78"/><circle cx="782" cy="183" r="50"/>
+<path d="M660 183H904M782 62V304" stroke-dasharray="3 7"/>
+<path d="M615 254H664L700 218M859 111H906V81M848 252L878 282H925"/>
+</g>
+<g class="orbit" fill="none"><circle cx="782" cy="183" r="105" stroke="#67e8f9" stroke-width="2" stroke-dasharray="62 598"/><circle cx="782" cy="78" r="4" fill="#67e8f9"/><circle cx="782" cy="288" r="3" fill="#a78bfa"/></g>
+<path d="M615 254H664L700 218" fill="none" stroke="#a78bfa" stroke-width="2" class="packet"/>
+<path d="M782 141L813 153V181Q813 208 782 224Q751 208 751 181V153Z" fill="#111e30" stroke="url(#accent)" stroke-width="2"/>
+<path d="M770 181L779 190L796 171" fill="none" stroke="#67e8f9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="859" cy="111" r="4" fill="#a78bfa" class="pulse"/>
+<text x="694" y="318" font-size="10" letter-spacing="2" fill="#7d8aa5">CURIOUS BY DEFAULT</text>
+<path d="M0 348H960" stroke="url(#accent)" stroke-width="3"/>
+</g><rect x="1" y="1" width="958" height="348" rx="16" fill="none" stroke="#2d3850"/>
+</svg>
